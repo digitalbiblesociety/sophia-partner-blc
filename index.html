@@ -15,7 +15,7 @@
 			siteTitle: '',
 
 			windows: [
-				{type: 'bible', data: {textid: 'ENGKJV', fragmentid: 'JN3_16'}},
+				{type: 'bible', data: {textid: 'ENGNIV', fragmentid: 'JN3_16'}},
 				{type: 'bible', data: {textid: 'ENGNAS', fragmentid: 'JN3_16'}}
 			],
 
@@ -42,11 +42,22 @@
 		});
 	</script>
 	<style>
-	#app-logo a {
-    	line-height:60px;
-    	color:#FFF;
-    	text-decoration:none;
-    	font-size:x-large;
+
+	#app-logo {
+		background-image: url('build/logo-white.svg');
+		background-repeat:no-repeat;
+		width:150px;
+		margin-top:4px;
+	}
+	#main-menu-button,
+	#main-fullscreen-button,
+	#main-forward-button,
+	#main-back-button {
+		color:#FFF;
+	}
+	.windows-header {
+		background-color:#2470ae;
+		border-bottom: #CCC thin solid;
 	}
 	/* Three Column Fix for long menu titles */
 	.main-menu-item {

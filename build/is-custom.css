@@ -27,6 +27,7 @@
 
 #app-logo svg	{position: absolute; width: 150px; top:4px; left: 6px; fill: #ddd; color: #89b1d6;}
 #app-logo:hover svg {fill: #ffffff; color: #f9fa00;}
+#app-logo		{top:14px;}
 
 #main-menu-button {line-height: 50px;font-size: 1.6rem;color: #ddd;}
 #main-menu-button:hover {color:#fff; }
